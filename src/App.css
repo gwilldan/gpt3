@@ -1,38 +1,154 @@
-.App {
-  text-align: center;
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* border: 1px solid white; */
+    scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    background-color: var(--color-bg);
+    color: var(--color-white);
+    font-family: var(--font-family);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.link {
+    color:  unset;
+    text-decoration: none;
+}
+
+.link:hover {
+  background-clip: text;
+  background: var(--gradient-text) ;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.link:visited {
+  border: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.design {
+  max-height: 75px;
+}
+
+.fixed {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.design h3 {
+  margin: 1rem 0;
+  width: 14rem;
+  max-width: 14rem;
+  font-weight: 800;
+  color: var(--color-white);
+}
+
+.design h4 {
+  margin: 0.6rem 0;
+  width: 14rem;
+  max-width: 14rem;
+  font-weight: 800;
+  line-height: 1.5rem;
+}
+
+.design div {
+  width: 38px;
+  height: 4px;
+  background: var(--gradient-text);
+}
+
+.gradient__bg {
+
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+
+}
+
+.gradient__subtext {
+  color: var(--color-subtext);
+}
+
+.gradient__text {
+    background: var(--gradient-text);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section__padding {
+    padding: 4rem 6rem;
+}
+
+.section__margin {
+    margin: 4rem 6rem;
+}
+
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+ @-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
   }
-  to {
-    transform: rotate(360deg);
+
+  @media screen and (max-width: 1200px ) {
+
+    .section__padding {
+        padding: 4rem 2rem;
+    }
+
+    .section__margin {
+        margin: 4rem 2rem;
+    }
+    
   }
-}
+  
+
+  @media screen and (max-width: 500px ) {
+
+    .section__padding {
+        padding: 4rem 2rem;
+    }
+
+    .section__margin {
+        margin: 4rem 2rem;
+    }
+    
+  }

@@ -1,0 +1,39 @@
+.gpt3__Navbar {
+    padding: 3rem 6rem;
+}
+
+.gpt3__Navbar-links {
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gpt3__Navbar-links_links {
+    width: 50%;
+    display: flex;
+    gap: 2rem;
+    color: var(--color-white);
+}   
+
+.gpt3__Navbar-links_buttons {
+    z-index: 1;
+}
+
+.button {
+    padding: 1em 2.5em;
+    background-color: inherit;
+    border: none;
+    color: var(--color-white);
+    border-radius: 5px;
+}
+
+.button__clicked {
+    background-color: var(--color-orange);
+}
+
+@media (max-width: 1200px) {
+    .gpt3__Navbar-links {
+        border: 2px solid red  ;
+    }
+}

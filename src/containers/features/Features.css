@@ -1,0 +1,30 @@
+
+.gpt3__features {
+    display: grid;
+    grid-template-columns: 30% 60%;
+    column-gap: 10%;
+}
+
+.gpt3__features-list{
+    display: grid;
+    grid-template-columns: 35% 65%;
+    row-gap: 2rem;
+}
+
+.gradient__h2{
+    font-weight: 800;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+.gradient__p {
+    font-weight: 300;
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+
+.gpt3__features-list_p {
+    font-size: 1rem;
+    line-height: 30px;
+    color: var(--color-text);
+}
