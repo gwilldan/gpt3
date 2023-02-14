@@ -29,7 +29,7 @@ function Blogs(props) {
                     </div>
                 </div>
 
-
+ 
                 <div className='gpt3__blog-container-tile'>
                     <img src={blog02} alt="blog02"/>
                     <div>

@@ -1,0 +1,38 @@
+.gpt3__footer {
+    background: var(--color-footer);
+    margin-top: 2rem;
+}
+
+.gpt3__footer * {
+    border: 1px solid red;
+}
+
+.gpt3__footer-top {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.gpt3__footer-top > * {
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+}
+
+.gpt3__footer-top button {
+    background-color: inherit;
+    padding: 1rem;
+    border: 1px solid var(--color-text);
+    color: var(--color-text);
+}
+
+.gpt3__footer-bottom {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    margin-top: 6rem;
+}
+
+.gpt3__footer-bottom > div {
+    margin: 0 2rem;
+}
