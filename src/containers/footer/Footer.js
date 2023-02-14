@@ -11,7 +11,7 @@ function Footer(props) {
             <div className='gpt3__footer-bottom'>
                 <div>
                     <h1>GPT-3</h1>
-                    <p>Crechterwoord K12 182 DK Alknjkcb, All Rights Reserved</p>
+                    <p>Crechterwoord K12 182 DK <br /> Alknjkcb, All Rights Reserved</p>
                 </div>
                 <div>
                     <a href='#'>Links</a>
@@ -27,7 +27,6 @@ function Footer(props) {
                     <a href='#'>Contact</a>
                 </div>
                 <p>(c) 2023 GPT-3 All rights reserved</p>
-                <div></div>
             </div>
         </div>
     );

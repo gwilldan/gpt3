@@ -12,12 +12,12 @@ body {
     font-family: var(--font-family);
 }
 
-.link {
+.link, a {
     color:  unset;
     text-decoration: none;
 }
 
-.link:hover {
+.link:hover, a:hover {
   background-clip: text;
   background: var(--gradient-text) ;
   -webkit-background-clip: text;

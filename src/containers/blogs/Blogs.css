@@ -11,6 +11,11 @@
     max-width: 500px;
     display: grid;
     grid-template-rows: 40% auto;
+    transition: scale 0.5s;
+}
+
+.gpt3__blog-container-tile:hover {
+    scale: 1.03;
 }
 
 /* .gpt3__blog-container-tile > img {
