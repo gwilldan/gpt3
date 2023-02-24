@@ -13,7 +13,7 @@ function Header(props) {
                 </div>
                 <div className='gpt3__header-hero_input'>
                     <input type="text" placeholder='Your Email Address' ></input>
-                    <button className='button button__clicked header__button'>Get Started</button>
+                    <button className='header__button'>Get Started</button>
                 </div>
                 <div className='gpt3__header-hero_people'>
                     <img src={people} alt="People Joined" />

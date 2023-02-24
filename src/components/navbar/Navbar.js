@@ -3,6 +3,7 @@ import "./Navbar.css";
 // import { RiMenu3line, RiCloseLin} from "react-icons/ri"
 import logo from "../../assets/logo.svg";
 import { Link } from 'react-router-dom';
+import {FaTimes, FaHamburger, FaBars} from "react-icons/fa"
 
 function navbar(props) {
     return (
@@ -21,6 +22,7 @@ function navbar(props) {
                 <div className='gpt3__Navbar-links_buttons'>
                     <button className='button'>Sign in</button>
                     <button className='button button__clicked'>Sign up</button>
+                    <button className='hamburger'><FaBars /></button>
                 </div>
             </div>
         </div>

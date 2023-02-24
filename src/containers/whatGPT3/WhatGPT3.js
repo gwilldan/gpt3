@@ -4,6 +4,7 @@ import "./WhatGPT3.css";
 function WhatGPT3(props) {
     return (
         <div className='gpt3__whatgpt3   section__margin' id='WhatGPT3'>
+            
             <div className='gpt3__whatgpt3-what'>
                 <div className='design'>
                     <div></div>
@@ -13,10 +14,12 @@ function WhatGPT3(props) {
                     We so opinion friends me message as delight. Whole front do of plate heard oh ought. His defective nor convinced residence own. Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by.
                 </p>
             </div>
+
             <div className='gpt3__whatgpt3-possibilities'>
                 <h2 className='gradient__text'>The possibilities are beyond your imagination</h2>
                 <p className='gradient__subtext'>Explore The Library</p>
             </div>
+
             <div className='gpt3__whatgpt3-lists'>
                 <div>
                     <div className='design'>

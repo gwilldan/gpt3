@@ -10,7 +10,7 @@ import Shopify from "../../assets/shopify.png";
 
 function brand() {
     return (
-        <div className='gpt3__header-sponsors section__padding'>
+        <div className='gpt3__brand section__padding'>
                 <img src={Google} alt="Google" />
                 <img src={Slack} alt="Slack" />
                 <img src={Atlassian} alt="Atlassian" />

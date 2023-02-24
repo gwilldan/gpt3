@@ -63,3 +63,9 @@
     text-align: center;
     margin-top: 6rem;
 }
+
+@media (max-width: 500px) {
+    .gpt3__footer-bottom {
+        display: block;
+    }
+}

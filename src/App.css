@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    /* border: 1px solid white; */
+    border: 1px solid white;
     scroll-behavior: smooth;
 }
 
@@ -144,11 +144,11 @@ button {
   @media screen and (max-width: 500px ) {
 
     .section__padding {
-        padding: 4rem 2rem;
+        padding: 4rem 1rem;
     }
 
     .section__margin {
-        margin: 4rem 2rem;
+        margin: 4rem 1rem;
     }
     
   }

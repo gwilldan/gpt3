@@ -27,6 +27,10 @@
     background-color: var(--color-orange);
 }
 
+.hamburger {
+    display: none;
+}
+
 @media (max-width: 1200px) {
     
     .gpt3__Navbar-links_links {
@@ -38,4 +42,22 @@
         padding: 0.5em 1.5em;
     }
 
+}
+
+@media (max-width: 500px) {
+    .gpt3__Navbar-links_links {
+        display: none;
+    }
+
+    .hamburger {
+        display: unset;
+        background: inherit;
+        color: var(--color-white);
+        border: none;
+        font-size: xx-large;
+    }
+
+    .button {
+        display: none;
+    }
 }

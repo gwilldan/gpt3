@@ -85,3 +85,13 @@
     }
 
 }
+
+@media (max-width: 500px) {
+
+    .gpt3__whatgpt3-what {
+        display: block;
+    }
+    .gpt3__whatgpt3-lists {
+        grid-template-columns: auto;
+    }
+}

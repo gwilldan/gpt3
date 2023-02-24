@@ -1,0 +1,12 @@
+.gpt3__brand {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+@media (max-width: 500px) {
+    .gpt3__brand {
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+}
