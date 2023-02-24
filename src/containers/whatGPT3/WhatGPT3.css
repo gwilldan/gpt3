@@ -65,3 +65,23 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
 }
+
+@media (max-width: 1000px) {
+    .gpt3__whatgpt3 {
+        padding: 3rem 1.5rem;
+    }
+
+    .gpt3__whatgpt3-what {
+        gap: 4rem
+    }
+    
+    .gpt3__whatgpt3-lists {
+        gap: 0.5rem;
+    }
+
+    .pt3__whatgpt3-p {
+        font-size: 0.8rem;
+        line-height: 20px;
+    }
+
+}

@@ -51,13 +51,9 @@
     height: 2rem;
     align-items: center;
     gap: 0.5rem;
-}
-
-.gpt3__header-hero_people {
     font-size: 0.8rem;
     font-weight: 300;
 }
-
 
 .gpt3__header-hero_text_h1 {
     font-size: 3.5rem;
@@ -78,6 +74,10 @@
     .gpt3__header-hero_text h3 {
         font-size: 30px;
         font-weight: 400;
+    }
+
+    .gpt3__header {
+        grid-template-columns: 1fr 300px;
     }
     
     .gpt3__header-hero_text p {
@@ -104,3 +104,4 @@
         min-width: 300px
     }
 }
+

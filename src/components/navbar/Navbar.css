@@ -1,9 +1,4 @@
-.gpt3__Navbar {
-    padding: 3rem 6rem;
-}
-
 .gpt3__Navbar-links {
-    color: red;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -33,7 +28,14 @@
 }
 
 @media (max-width: 1200px) {
-    .gpt3__Navbar-links {
-        border: 2px solid red  ;
+    
+    .gpt3__Navbar-links_links {
+        gap: 0.5rem;
+        font-size: 0.9rem;
+    }  
+
+    .button {
+        padding: 0.5em 1.5em;
     }
+
 }

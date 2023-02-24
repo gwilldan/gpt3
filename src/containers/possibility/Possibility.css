@@ -83,3 +83,11 @@
 .possibilities__button:hover {
     scale: 1.1;
 }   
+
+@media (max-width: 1000px) {
+    .gpt3__possibilities-cont {
+        border: 1px solid red;
+        padding: 0 4rem;
+        justify-content: center;
+    }
+}
