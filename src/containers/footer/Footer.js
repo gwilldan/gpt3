@@ -14,17 +14,17 @@ function Footer(props) {
                     <p>Crechterwoord K12 182 DK <br /> Alknjkcb, All Rights Reserved</p>
                 </div>
                 <div>
-                    <a href='#'>Links</a>
-                    <a href='#'>Company</a>
-                    <a href='#'>Get in touch</a>
-                    <a href='#'>Overons</a>
-                    <a href='#'>Terms & Conditions</a>
-                    <a href='#'>Crechterwoord K12 182 DK Akinjo</a>
-                    <a href='#'>Social Media</a>
-                    <a href='#'>Counters</a>
-                    <a href='#'>Contact</a>
-                    <a href='#'>info@payme.net</a>
-                    <a href='#'>Contact</a>
+                    <a href='#links'>Links</a>
+                    <a href='#company'>Company</a>
+                    <a href='#getInTouch'>Get in touch</a>
+                    <a href='#overons'>Overons</a>
+                    <a href='#termsCondition'>Terms & Conditions</a>
+                    <a href='#Crechterwoord'>Crechterwoord K12 182 DK Akinjo</a>
+                    <a href='#SocialMedia'>Social Media</a>
+                    <a href='#Counters'>Counters</a>
+                    <a href='#Contact'>Contact</a>
+                    <a href='#Info'>info@payme.net</a>
+                    <a href='#Contact'>Contact</a>
                 </div>
                 <p>(c) 2023 GPT-3 All rights reserved</p>
             </div>

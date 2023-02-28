@@ -11,10 +11,10 @@
     max-width: 650px;
 }
 
-.gpt3__header-img {
+.gpt3__header-img img{
     margin-top: -5em;
     max-width: 650px;
-    min-width: 500px
+    min-width: 500px;
 }
 
 .header__button {
@@ -71,6 +71,11 @@
     margin-top: 2em;    
 }
 
+        /* 
+            Media Querry for tablets
+        */
+
+
 @media (max-width: 1000px) {
 
     .gpt3__header-hero_text h3 {
@@ -97,8 +102,9 @@
         padding: 1em 1.5em;
     }
 
-    .gpt3__header-img {
-        min-width: 300px
+    .gpt3__header-img img {
+        min-width: 300px;
+        width: 100%;
     }
 
     .gpt3__header-hero_people {
@@ -111,6 +117,12 @@
         height: 1.5rem;
     }
 }
+
+                /*  
+                    Media Querry for Phones  
+                
+                */
+
 
 @media (max-width: 500px) {
     .gpt3__header {

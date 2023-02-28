@@ -20,6 +20,7 @@
 
 .gpt3__blog-container-tile img {
     min-height: 140px;
+    width: 100%;
 }
 
 .gpt3__blog-container-tile:first-child{
