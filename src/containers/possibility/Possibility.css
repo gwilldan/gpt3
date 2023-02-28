@@ -88,5 +88,6 @@
     .gpt3__possibilities-cont {
         padding: 0 4rem;
         justify-content: center;
+        margin-left: 2rem;
     }
 }

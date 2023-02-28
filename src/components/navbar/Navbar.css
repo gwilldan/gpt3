@@ -1,7 +1,15 @@
+
 .gpt3__Navbar-links {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    padding: 2rem 6rem;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background: inherit;
+    backdrop-filter: blur(8px);
 }
 
 .gpt3__Navbar-links_links {

@@ -4,7 +4,7 @@ import imgPoss from "../../assets/possibility.png";
 
 function Possibility(props) {
     return (
-        <div className='gpt3__possibilities'>
+        <div id="Possibility" className='gpt3__possibilities'>
             <div className='gpt3__possibilities-cont'>
                 <div className='gpt3__possibilities-img'>
                     <img className='gpt3__possibilities-img_img' src={imgPoss} alt="imagePossibilities" />

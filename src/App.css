@@ -36,12 +36,6 @@ button {
   max-height: 75px;
 }
 
-.fixed {
-  position: fixed;
-  width: 100%;
-  z-index: 1;
-}
-
 .design h3 {
   margin: 1rem 0;
   width: 14rem;

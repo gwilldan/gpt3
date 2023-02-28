@@ -3,7 +3,7 @@ import "./Features.css";
 
 function Features(props) {
   return (
-    <div className='gpt3__features section__padding'>
+    <div id="Features"   className='gpt3__features section__padding'>
 
 
       <div className='gpt3__features-text'>

@@ -16,7 +16,7 @@ function Blogs(props) {
     const date = "Sep 26, 2021"
 
     return (
-        <div className='gpt3__blogs     section__padding'>
+        <div id="Blogs" className='gpt3__blogs     section__padding'>
             <h3 className='gpt3__header-hero_text_h1    gradient__text'>A lot is happening, <br /> We are blogging about it.</h3>
             <div className='gpt3__blog-container'>
                 
