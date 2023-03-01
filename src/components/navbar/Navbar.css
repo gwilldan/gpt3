@@ -66,12 +66,12 @@
         background: inherit;
         color: var(--color-white);
         border: none;
-        font-size: xx-large;
+        font-size: x-large;
     }
 
     .button {
         display: none;
     }
 
-    
+
 }
