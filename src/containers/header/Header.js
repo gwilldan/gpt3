@@ -5,7 +5,7 @@ import people from "../../assets/people.png";
 
 function Header(props) {
     return (
-        <div className='gpt3__header section__padding ' id='Header'>
+        <div id='top'  className='gpt3__header'>
             <div className='gpt3__header-hero'>
                 <div className='gpt3__header-hero_text'>
                     <h3 className='gpt3__header-hero_text_h1 gradient__text'>Let’s Build Something amazing with GPT-3 OpenAI</h3>

@@ -16,11 +16,11 @@ function Blogs(props) {
     const date = "Sep 26, 2021"
 
     return (
-        <div id="Blogs" className='gpt3__blogs     section__padding'>
-            <h3 className='gpt3__header-hero_text_h1    gradient__text'>A lot is happening, <br /> We are blogging about it.</h3>
+        <div id="Blogs"  className='gpt3__blogs     section__padding'>
+            <h3  className='gpt3__header-hero_text_h1    gradient__text'>A lot is happening, <br /> We are blogging about it.</h3>
             <div className='gpt3__blog-container'>
                 
-                <div className='gpt3__blog-container-tile'>
+                <div     className='gpt3__blog-container-tile'>
                     <img src={blog01} alt="blog01"/>
                     <div>
                         <p>{date}</p>
@@ -40,7 +40,7 @@ function Blogs(props) {
                 </div>
 
 
-                <div className='gpt3__blog-container-tile'>
+                <div  className='gpt3__blog-container-tile'>
                     <img src={blog03} alt="blog03"/>
                     <div>
                         <p>{date}</p>
@@ -50,7 +50,7 @@ function Blogs(props) {
                 </div>
 
 
-                <div className='gpt3__blog-container-tile'>
+                <div  className='gpt3__blog-container-tile'>
                     <img src={blog04} alt="blog04" />
                     <div>
                         <p>{date}</p>

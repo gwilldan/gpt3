@@ -9,7 +9,6 @@
     width: 100%;
     z-index: 1;
     background: inherit;
-    backdrop-filter: blur(8px);
 }
 
 .gpt3__Navbar-links_links {
@@ -40,6 +39,10 @@
 }
 
 @media (max-width: 1200px) {
+    
+    .gpt3__Navbar-links {
+        padding: 2rem 2rem;
+    }
     
     .gpt3__Navbar-links_links {
         gap: 0.5rem;

@@ -10,14 +10,14 @@ function App() {
         <div className="App gradient__bg ">
             <Router>   
                 <Navbar />
-                <div>
-                    <Header id="header"/>
-                    <Brand id="brand"/>
-                    <WhatGPT3 id="whatGPT3"/>
-                    <Features id="features" />
-                    <Possibility id="possibility" />
-                    <Blogs id="blogs" />
-                    <Footer id="footer" />
+                <div className="theBody">
+                    <Header />
+                    <Brand />
+                    <WhatGPT3 />
+                    <Features />
+                    <Possibility />
+                    <Blogs />
+                    <Footer />
                 </div>
             </Router>
         </div>

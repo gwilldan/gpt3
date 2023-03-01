@@ -12,6 +12,11 @@ body {
     font-family: var(--font-family);
 }
 
+.theBody {
+  overflow: auto;
+  height: 100vh;
+}
+
 .link, a {
     color:  unset;
     text-decoration: none;
