@@ -12,7 +12,7 @@ function Possibility(props) {
                 <div className='gpt3__possibilities-texts'>
                     <p>Request Early Access to Get Started</p>
                     <h2 className='gradient__text'>The possibilities are <br /> beyond your imagination</h2>
-                    <p className='gpt3__features-list_p'>Yet bed any for travelling assistance indulgence unpleasing. Not <br /> thoughts all exercise blessing. Indulgence way everything joy <br /> alteration boisterous the attachment. Party we years to order <br /> allow asked of.</p>
+                    <p className='gpt3__features-list_p'>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
                     <p className='gradient__subtext'>Request Early Access to Get Started</p>
                 </div>
             </div>

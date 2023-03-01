@@ -95,3 +95,38 @@
         margin: 4rem 2rem;
     }
 }
+
+@media (max-width: 500px) {
+    .gpt3__possibilities-cont {
+        grid-template-columns: auto;
+        padding: 1rem;
+        margin: 1rem;
+    }
+
+    .gpt3__possibilities-texts {
+        padding: 3rem 0rem 0 0rem;
+    }
+
+    .gradient__subtext {
+        text-align: center;
+    }
+
+    .gpt3__possibilities-get {
+        margin: 2rem 1rem;
+        padding: 1rem;
+    }
+
+    .gpt3__possibilities-get p {
+        font-size: xx-small;
+    }
+
+    .gpt3__possibilities-get h3 {
+        font-size: small;
+    }
+
+    .possibilities__button {
+        padding: 0.5rem 1rem;
+        font-size: x-small;
+    }
+
+}

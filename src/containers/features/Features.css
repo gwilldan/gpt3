@@ -34,9 +34,14 @@
 }
 
 @media (max-width: 500px) {
+    
     .gpt3__features {
         grid-template-columns: auto;
         gap: 2rem;
+    }
+
+    .gpt3__features-list {
+        column-gap: 0.5rem;
     }
 
     .gpt3__features-list_p {
