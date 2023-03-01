@@ -128,7 +128,7 @@
 @media (max-width: 500px) {
     .gpt3__header {
         grid-template-columns: auto;
-        padding: 6rem 2rem 1rem;
+        padding: 2rem 1rem 1rem;
     }
 
     .gpt3__header-hero_text h3 {
