@@ -94,4 +94,15 @@
     .gpt3__whatgpt3-lists {
         grid-template-columns: auto;
     }
+
+    .gpt3__whatgpt3-possibilities {
+        grid-template-columns: auto;
+        gap: 1rem;
+        margin: 2rem 0rem;
+    }
+
+    .pt3__whatgpt3-p {
+        padding-bottom: 1rem;
+        padding-top: 0rem;
+    }
 }

@@ -25,6 +25,22 @@
 
 .gpt3__features-list_p {
     font-size: 1rem;
-    line-height: 30px;
+    line-height: 2rem;
     color: var(--color-text);
+}
+
+.design__features h4 {
+    max-width: 100%;
+}
+
+@media (max-width: 500px) {
+    .gpt3__features {
+        grid-template-columns: auto;
+        gap: 2rem;
+    }
+
+    .gpt3__features-list_p {
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+    }
 }

@@ -13,7 +13,7 @@ function Features(props) {
 
 
       <div className='gpt3__features-list'>
-        <div className='design'>
+        <div className='design design__features'>
           <div></div>
           <h4>
             Improving end <br /> distrusts instantly

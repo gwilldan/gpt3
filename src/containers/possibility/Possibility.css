@@ -90,4 +90,8 @@
         justify-content: center;
         margin-left: 2rem;
     }
+
+    .gpt3__possibilities-get {
+        margin: 4rem 2rem;
+    }
 }
