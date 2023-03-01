@@ -25,7 +25,7 @@ function navbar(props) {
                     <Link className='link' to='#WhatGPT3' scroll={(el) => el.scrollIntoView({ behavior: 'auto', block: 'center' })}>What is GPT3?</Link>
                     <Link className='link' to='#Features' scroll={(el) => el.scrollIntoView({ behavior: 'auto', block: 'end' })}>Open AI </Link>
                     <Link className='link' to='#Possibility' scroll={(el) => el.scrollIntoView({ behavior: 'auto', block: 'end' })} >Case Studies</Link>
-                    <Link className='link' to='#Blogs' scroll={(el) => el.scrollTo(0)}>Library</Link>
+                    <Link className='link' to='#Blogs' scroll={(el) => el.scrollTo(200, 0)}>Library</Link>
                 </div>
                 <div className='gpt3__Navbar-links_buttons'>
                     <button className='button'>Sign in</button>
