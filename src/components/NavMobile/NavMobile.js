@@ -15,7 +15,7 @@ function NavMobile(props) {
                 <Link className='link' to='#WhatGPT3' onClick={hideNav} scroll={(el) => el.scrollIntoView({ behavior: 'auto', block: 'center' })}>What is GPT3?</Link>
                 <Link className='link' to='#Features' onClick={hideNav} scroll={(el) => el.scrollIntoView({ behavior: 'auto', block: 'end' })}>Open AI </Link>
                 <Link className='link' to='#Possibility' onClick={hideNav} scroll={(el) => el.scrollIntoView({ behavior: 'auto', block: 'end' })} >Case Studies</Link>
-                <Link className='link' to='#Blogs' onClick={hideNav} scroll={(el) => el.scrollTo(200, 0)}>Library</Link>
+                <Link className='link' to='#Blogs' onClick={hideNav} scroll={(el) => el.scrollIntoView({ behavior: 'auto', block: 'end' })}>Library</Link>
             </div>
         </div>
     );
