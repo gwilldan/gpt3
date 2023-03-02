@@ -78,5 +78,23 @@
         grid-template-columns: auto auto;
     }
 
+    .gpt3__blog-container-tile h3 {
+        font-size: small;
+    }
+
+    .gpt3__blog-container-tile div {
+        padding: 1rem 0.5rem;
+    }
+
+    /* .gpt3__blog-container-tile:first-child{
+        grid-column: 1/3;
+        grid-row: 1/2;
+        height: unset;
+    } */
+
+    .gpt3__blog-container-tile > div > p:first-child,   .gpt3__blog-container-tile > div > p:last-child{
+        font-size: xx-small;
+    }
+    
 
 }

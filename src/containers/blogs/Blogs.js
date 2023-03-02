@@ -23,7 +23,7 @@ function Blogs(props) {
                 <div   className='gpt3__blog-container-tile'>
                     <img src={blog01} alt="blog01"/>
                     <div>
-                        <p>{date}</p>
+                        <p className='blog__p'>{date}</p>
                         <h3>GPT-3 and Open  AI is the future. Let us exlore how it is?</h3>
                         <p>{read}</p>
                     </div>

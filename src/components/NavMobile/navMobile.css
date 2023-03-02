@@ -1,0 +1,28 @@
+
+.gpt3__Navbar-mobile {
+    display: none;
+}
+
+
+@media (max-width: 500px) {
+    .gpt3__Navbar-mobile {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        width: 75%;
+        right: 0;
+        backdrop-filter: blur(30px);
+    }
+    
+    .gpt3__Navbar-mobile_links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+}
+

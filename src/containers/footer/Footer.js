@@ -26,8 +26,8 @@ function Footer(props) {
                     <a href='#Info'>info@payme.net</a>
                     <a href='#Contact'>Contact</a>
                 </div>
-                <p>(c) 2023 GPT-3 All rights reserved</p>
             </div>
+            <p>(c) 2023 GPT-3 All rights reserved</p>
         </div>
     );
 }

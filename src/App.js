@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import {Brand, Navbar } from "./components/componentIndex";
+import {Brand, Navbar, NavMobile } from "./components/componentIndex";
 import {Blogs, Features, Footer, Header, Possibility, WhatGPT3} from "./containers/containerIndex";
 import {BrowserRouter as Router} from "react-router-dom";
 
@@ -11,6 +11,7 @@ function App() {
             <Router>   
                 <Navbar />
                 <div className="theBody">
+                    <NavMobile />
                     <Header />
                     <Brand />
                     <WhatGPT3 />

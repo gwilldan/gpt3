@@ -3,17 +3,18 @@ import "./Navbar.css";
 // import { RiMenu3line, RiCloseLin} from "react-icons/ri"
 import logo from "../../assets/logo.svg";
 import {HashLink as Link} from "react-router-hash-link";
-import {FaTimes, FaHamburger, FaBars} from "react-icons/fa"
+import {FaTimes, FaBars} from "react-icons/fa"
 
 function navbar(props) {
 
-    // const scrollWithOffset = (el, offset) => {
-    //     const elementPosition = el.offsetTop - offset;
-    //     window.scroll({
-    //       top: elementPosition,
-    //       left: 0,
-    //       behavior: "smooth"
-    //     });    
+    function dispNav() {
+        let nav = document.getElementById("mobileNav").style;
+        if (nav.display === "none") {
+            nav.display = "flex";
+        } else {
+            nav.display = "none";
+        }
+    }
 
     return (
             <div className='gpt3__Navbar-links      section__padding'>
@@ -30,8 +31,9 @@ function navbar(props) {
                 <div className='gpt3__Navbar-links_buttons'>
                     <button className='button'>Sign in</button>
                     <button className='button button__clicked'>Sign up</button>
-                    <button className='hamburger'><FaBars /></button>
+                    <button className='hamburger' onClick={dispNav}><FaBars /></button>
                 </div>
+
             </div>
     );
 }
