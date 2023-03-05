@@ -1,23 +1,27 @@
-import React from 'react';
+import React, {useState} from 'react';
 import "./Navbar.css";
 // import { RiMenu3line, RiCloseLin} from "react-icons/ri"
 import logo from "../../assets/logo.svg";
 import {HashLink as Link} from "react-router-hash-link";
 import {FaTimes, FaBars} from "react-icons/fa"
 
-function navbar(props) {
+function Navbar(props) {
+
+    const [toggle, SetToggle] = useState(false);
 
     function dispNav() {
         let nav = document.getElementById("mobileNav").style;
         if (nav.display === "none") {
             nav.display = "flex";
+            SetToggle(true);
         } else {
             nav.display = "none";
+            SetToggle(false);
         }
     }
 
     return (
-            <div className='gpt3__Navbar-links      section__padding'>
+            <div id="NavBar" className='gpt3__Navbar-links      section__padding'>
                 <div className='gpt3__Navbar-links_logo'>
                     <img src={logo} alt='logo' />
                 </div>
@@ -31,11 +35,10 @@ function navbar(props) {
                 <div className='gpt3__Navbar-links_buttons'>
                     <button className='button'>Sign in</button>
                     <button className='button button__clicked'>Sign up</button>
-                    <button className='hamburger' onClick={dispNav}><FaBars /></button>
+                    <button id="theBut" className='hamburger' onClick={dispNav} >{toggle ? <FaTimes /> : <FaBars />}</button>
                 </div>
-
             </div>
     );
 }
 
-export default navbar;
+export default Navbar;

@@ -1,7 +1,3 @@
-.gpt3__whatgpt3 * {
-    /* border: 1px solid white; */
-}
-
 .gpt3__whatgpt3 {
     display: flex;
     flex-direction: column;
