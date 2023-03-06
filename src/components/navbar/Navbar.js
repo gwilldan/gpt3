@@ -9,33 +9,35 @@ function Navbar({toggle, SetToggle}) {
 
     function dispNav() {
         const nav = document.getElementById("mobileNav").style;
-        if (nav.display === "none") {
+        if (nav.display === "") {
             nav.display = "flex";
+            console.log(true);
             SetToggle(true);
         } else {
-            nav.display = "none";
+            nav.display = "";
+            console.log(false);
             SetToggle(false);
         }
     }
 
     return (
-            <div id="NavBar" className='gpt3__Navbar-links      section__padding'>
-                <div className='gpt3__Navbar-links_logo'>
-                    <img src={logo} alt='logo' />
-                </div>
-                <div className='gpt3__Navbar-links_links'>
-                    <Link className='link' to='#top'>Home</Link>
-                    <Link className='link' to='#WhatGPT3' scroll={(el) => el.scrollIntoView({ behavior: 'auto', block: 'center' })}>What is GPT3?</Link>
-                    <Link className='link' to='#Features' scroll={(el) => el.scrollIntoView({ behavior: 'auto', block: 'end' })}>Open AI </Link>
-                    <Link className='link' to='#Possibility' scroll={(el) => el.scrollIntoView({ behavior: 'auto', block: 'end' })} >Case Studies</Link>
-                    <Link className='link' to='#Blogs' scroll={(el) => el.scrollIntoView({ behavior: 'auto', block: 'end' })}>Library</Link>
-                </div>
-                <div className='gpt3__Navbar-links_buttons'>
-                    <button className='button'>Sign in</button>
-                    <button className='button button__clicked'>Sign up</button>
-                    <button id="theBut" className='hamburger' onClick={dispNav} >{toggle ? <FaTimes /> : <FaBars />}</button>
-                </div>
+        <div id="NavBar" className='gpt3__Navbar-links      section__padding'>
+            <div className='gpt3__Navbar-links_logo'>
+                <img src={logo} alt='logo' />
             </div>
+            <div className='gpt3__Navbar-links_links'>
+                <Link className='link' to='#top'>Home</Link>
+                <Link className='link' to='#WhatGPT3' scroll={(el) => el.scrollIntoView({ behavior: 'auto', block: 'center' })}>What is GPT3?</Link>
+                <Link className='link' to='#Features' scroll={(el) => el.scrollIntoView({ behavior: 'auto', block: 'end' })}>Open AI </Link>
+                <Link className='link' to='#Possibility' scroll={(el) => el.scrollIntoView({ behavior: 'auto', block: 'end' })} >Case Studies</Link>
+                <Link className='link' to='#Blogs' scroll={(el) => el.scrollIntoView({ behavior: 'auto', block: 'end' })}>Library</Link>
+            </div>
+            <div className='gpt3__Navbar-links_buttons'>
+                <button className='button'>Sign in</button>
+                <button className='button button__clicked'>Sign up</button>
+                <button id="theBut" className='hamburger' onClick={dispNav} >{toggle ? <FaTimes /> : <FaBars />}</button>
+            </div>
+        </div>
     );
 }
 
