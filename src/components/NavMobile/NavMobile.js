@@ -5,7 +5,7 @@ import {HashLink as Link} from "react-router-hash-link"
 function NavMobile({SetToggle}) {
     function hideNav() {
         let nav = document.getElementById("mobileNav");
-        nav.style.display = "none";
+        nav.style.display = "";
         SetToggle(false);
     }
 
