@@ -7,9 +7,8 @@ import {FaTimes, FaBars} from "react-icons/fa"
 
 function Navbar({toggle, SetToggle}) {
 
-
     function dispNav() {
-        let nav = document.getElementById("mobileNav").style;
+        const nav = document.getElementById("mobileNav").style;
         if (nav.display === "none") {
             nav.display = "flex";
             SetToggle(true);
