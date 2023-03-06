@@ -1,13 +1,12 @@
-import React, {useState} from 'react';
+import React from 'react';
 import "./Navbar.css";
 // import { RiMenu3line, RiCloseLin} from "react-icons/ri"
 import logo from "../../assets/logo.svg";
 import {HashLink as Link} from "react-router-hash-link";
 import {FaTimes, FaBars} from "react-icons/fa"
 
-function Navbar(props) {
+function Navbar({toggle, SetToggle}) {
 
-    const [toggle, SetToggle] = useState(false);
 
     function dispNav() {
         let nav = document.getElementById("mobileNav").style;
