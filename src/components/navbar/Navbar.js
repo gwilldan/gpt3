@@ -11,11 +11,9 @@ function Navbar({toggle, SetToggle}) {
         const nav = document.getElementById("mobileNav").style;
         if (nav.display === "") {
             nav.display = "flex";
-            console.log(true);
             SetToggle(true);
         } else {
             nav.display = "";
-            console.log(false);
             SetToggle(false);
         }
     }
